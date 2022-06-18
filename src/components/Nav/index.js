@@ -1,21 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
+import Contact from '../Contact';
 
 function Nav() {
-    return (
-      <header>
-        <h1>
-          <a href='/'>Kaia Scheirman</a>
-        </h1>
-        <nav>
-          <ul>
-            <li> <a href='#about-me'>About Me</a> </li>
-            <li> <a href='#portfolio'>Portfolio</a> </li>
-            <li> <a href='#resume'>Resume</a> </li>
-            <li> <a href='#contact'>Contact</a> </li>
-          </ul>
-        </nav>
-      </header>        
-    )
+  const [nav, setNav] = useState('About Me');
+
+  const handleClick = (e) => {
+    setNav(e.target.innerText);
+  }
+
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li onClick={handleClick}>About Me</li>
+          <li onClick={handleClick}>Portfolio</li>
+          <li onClick={handleClick}>Resume</li>
+          <li onClick={handleClick}>Contact</li>
+        </ul>
+      </nav>
+      {nav === 'About Me' && <About /> }
+      {nav === 'Portfolio' && <Portfolio />} 
+      {nav === 'Resume' && <Resume /> }
+      {nav === 'Contact' && <Contact /> }
+    </div>
+  );
 }
 
 export default Nav;
