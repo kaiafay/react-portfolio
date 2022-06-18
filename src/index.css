@@ -27,3 +27,18 @@ nav {
   color: whitesmoke;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+}
+
+#avatar {
+  height: 250px;
+  border-radius: 15px;
+  margin-left: 1%;
+}
+
+#about-me {
+  padding: 5% 35% 5% 2%;
+  font-size: 18px;
+}

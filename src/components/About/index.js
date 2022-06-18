@@ -3,8 +3,8 @@ import Avatar from '../../assets/images/avatar.JPG'
 
 function About() {
   return (
-    <div>
-      <img src={Avatar} alt='avatar of kaia' />
+    <div className='about'>
+      <img id='avatar' src={Avatar} alt='avatar of kaia' />
       <p id='about-me'> 
         Hello! My name is Kaia. I am a 22-year-old full stack web developer residing in Eugene, Oregon.
         My front end skills include HTML, CSS, Javascript, React, Handlebars, Bootstrap, jQuery, and AJAX.
