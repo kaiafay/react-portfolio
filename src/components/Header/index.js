@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from '../Nav';
 
 function Header() {
     return (
       <header>
         <h1>
-          <a href='/'>Kaia Scheirman</a>
+          <Link to='/'>Kaia Scheirman</Link>
         </h1>
         <Nav />
       </header>        
