@@ -18,13 +18,14 @@ header h1 a {
 }
 
 nav {
-  padding-top: 7%;
+  padding-top: 4.5%;
 }
 
 .navlink {
   text-decoration: none;
   font-size: 25px;
   color: whitesmoke;
+  margin-right: 50px;
 }
 
 .about {
