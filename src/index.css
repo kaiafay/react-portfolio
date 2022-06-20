@@ -115,3 +115,20 @@ nav {
   padding: 10px;
   border-radius: 5px;
 }
+
+label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.input {
+  margin: 5px 0 3px 10px;
+}
+
+#submitform {
+  margin: 10px 0 0 150px;
+}
+
+.error-text {
+  margin-left: 10px;
+}
