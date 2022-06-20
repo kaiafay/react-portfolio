@@ -57,3 +57,47 @@ nav {
   font-size: 20px;
   padding: 6%;
 }
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#codequiz {
+  width: 500px;
+  height: 270px;
+}
+
+#letstalkrecipes {
+  width: 450px;
+  height: 275px;
+}
+
+#notetaker {
+  width: 500px;
+  height: 270px
+}
+
+#techblog {
+  width: 500px;
+  height: 300px;
+}
+
+#budgettracker {
+  width: 500px;
+  height: 325px;
+}
+
+#ohsnap {
+  width: 500px;
+  height: 325px;
+}
+
+.view {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(116, 44, 44);
+  padding: 10px;
+  margin-right: 5px;
+}
