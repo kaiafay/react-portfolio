@@ -101,3 +101,16 @@ nav {
   padding: 10px;
   margin-right: 5px;
 }
+
+#resume {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#viewresume {
+  text-decoration: none;
+  background-color: rgb(116, 44, 44);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
