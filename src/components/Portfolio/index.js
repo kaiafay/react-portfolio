@@ -3,7 +3,7 @@ import React from 'react';
 import CodeQuiz from '../../assets/images/codequiz.jpg';
 import LetsTalkRecipes from '../../assets/images/letstalkrecipes.jpg';
 import NoteTaker from '../../assets/images/notetaker.jpg';
-import TechBlog from '../../assets/images/techblog.jpg';
+import DIYExplorer from '../../assets/images/diyexplorer.jpg';
 import BudgetTracker from '../../assets/images/budgettracker.jpg';
 import OhSnap from '../../assets/images/ohsnap.jpg';
 
@@ -32,11 +32,11 @@ function Portfolio() {
                 <a href='https://github.com/kaiafay/note-taker' target='_blank' rel='noreferrer' className='view'>View Repository</a>
             </div>
             <div className='project'>
-                <h3>Tech Blog</h3>
-                <img id='techblog' src={TechBlog} alt='mockup of tech blog app' />
-                <p>A CMS-style blog site that allows users to publish their own blogs as well as leave comments on other users' blogs. <br /> Built with: Handlebars, Node.js, Express.js, MySQL, Sequelize, and express-session.</p>
-                <a href='https://tech-blog9.herokuapp.com/' target='_blank' rel='noreferrer' className='view'>View App</a>
-                <a href='https://github.com/kaiafay/tech-blog' target='_blank' rel='noreferrer' className='view'>View Repository</a>
+                <h3>DIY Explorer</h3>
+                <img id='diyexplorer' src={DIYExplorer} alt='mockup of diy explorer app' />
+                <p>A blog site that allows users to publish DIY projects, comment on other users' projects, and save other users' projects. <br /> Built with: React, CSS, JavaScript, Express.js, Node.js, GraphQL, Mongoose, and MongoDB.</p>
+                <a href='https://rocky-bayou-01919.herokuapp.com/' target='_blank' rel='noreferrer' className='view'>View App</a>
+                <a href='https://github.com/kaiafay/DIY-sharing' target='_blank' rel='noreferrer' className='view'>View Repository</a>
             </div>
             <div className='project'>
                 <h3>Budget Tracker</h3>
