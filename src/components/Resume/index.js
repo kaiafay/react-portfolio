@@ -27,7 +27,7 @@ function Resume() {
                 <li>GraphQL</li>
             </ul>
 
-            <a href='https://docs.google.com/document/d/1YV2tY_aoCaD5SaVKfj3n92SHHAVopVdtTMKQ1RyjXww/edit?usp=sharing' rel='noreferrer' target='_blank' id='viewresume'>View My Resume Here</a>
+            <a href='https://docs.google.com/document/d/1YV2tY_aoCaD5SaVKfj3n92SHHAVopVdtTMKQ1RyjXww/export?format=pdf' rel='noreferrer' target='_blank' id='viewresume'>View My Resume Here</a>
         </p>
       </section>
     )
