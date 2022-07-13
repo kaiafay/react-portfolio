@@ -6,7 +6,7 @@ Built With:
 - React
 
 ## Link to Deployed Application
-https://kaiafay.github.io/react-portfolio/ 
+https://react-portfolio99.herokuapp.com/
 
 ## Mock Up
 ![mockup of react portfolio](assets/images/reactmockup.jpg)
