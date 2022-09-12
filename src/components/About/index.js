@@ -1,5 +1,6 @@
 import React from "react";
 import Avatar from "../../assets/images/avatar.jpg";
+import Typewriter from "typewriter-effect";
 
 function About() {
   return (
@@ -13,6 +14,22 @@ function About() {
         Sequelize, MongoDB, Mongoose, and GraphQL. I am a fast learner with an
         exceptional eye for detail who specializes in the MERN stack.
       </p>
+
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+            .typeString("This is a test!")
+            .callFunction(() => {
+              console.log("String typed out!");
+            })
+            .pauseFor(2500)
+            .deleteAll()
+            .callFunction(() => {
+              console.log("All strings were deleted");
+            })
+            .start();
+        }}
+      />
     </div>
   );
 }
